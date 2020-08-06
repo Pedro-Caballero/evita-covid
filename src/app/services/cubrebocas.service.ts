@@ -58,7 +58,7 @@ export class CubrebocasService {
       producto: "Cubrebocas de neopreno",
       precio: "$20.00",
       img: "assets/img/cubrelavableneopreno.jpeg",
-      caracteristicas: "cubrebocas lavable infantil y adulto color nregro"
+      caracteristicas: "cubrebocas lavable infantil y adulto color negro"
     },
     {
       producto: "Cubrebocas infantil",

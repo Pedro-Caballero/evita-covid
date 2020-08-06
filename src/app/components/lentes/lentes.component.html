@@ -1,3 +1,6 @@
+<div class="container mt-5">
+    <h1>LENTES</h1>
+</div>
 <div class="container main-container mt-5">
     <div class="card-row">
         <div class="card mb-4" *ngFor="let lente of lentes">
@@ -5,7 +8,7 @@
             <div class="card-body">
                 <h5 class="card-title">{{ lente.producto | uppercase}}</h5>
                 <p class="card-text"><span>Caracteristicas:</span> {{ lente.caracteristicas }}</p>
-                <p class="card-text"><small class="text-muted"><span>Precio menudeo: </span>{{ lente.precio }}</small></p>
+                <p class="card-text"><small class="text-muted"><span>Precio menudeo: {{ lente.precio }}</span></small></p>
             </div>
         </div>
     </div>

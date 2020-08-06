@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: 'Thasadith', sans-serif;
+    background-color: #37474f;
+}
+
+h1 {
+    text-shadow: 2px 2px 2px solid gray;
+    font-weight: bold;
+    color: rgb(5, 96, 201);
+    text-align: center;
+}
+
+.navbar {
+    position: sticky!important;
+    top: 0;
+    z-index: 3!important;
+}
+
+.card {
+    background-color: #37474f!important;
+}
+
+h5,
+p,
+span,
+small {
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 380px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .carousel-item img {
+        width: 100%;
+        height: 900px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .carousel-item img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .carousel-item img {
+        width: 100%;
+    }
+}
