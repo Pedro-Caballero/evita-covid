@@ -15,6 +15,7 @@ h1 {
     position: sticky!important;
     top: 0;
     z-index: 3!important;
+    -webkit-transform: translate3d(3, 3, 3);
 }
 
 .card {
