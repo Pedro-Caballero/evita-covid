@@ -15,6 +15,7 @@ import { CaretasComponent } from './components/caretas/caretas.component';
 import { LentesComponent } from './components/lentes/lentes.component';
 import { SenalizacionesComponent } from './components/senalizaciones/senalizaciones.component';
 import { VariosComponent } from './components/varios/varios.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { VariosComponent } from './components/varios/varios.component';
     CaretasComponent,
     LentesComponent,
     SenalizacionesComponent,
-    VariosComponent
+    VariosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

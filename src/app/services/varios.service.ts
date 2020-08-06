@@ -7,7 +7,7 @@ export class VariosService {
 
   private varios: any[] = [
     {
-      producto: "uniforme quirúgica",
+      producto: "uniforme quirúgico",
       precio: "$100.00",
       img: "assets/img/bata.jpeg",
       caracteristicas: "uniforme quirúrgica sencillo filipina y pantalón no estéril tallas: --"

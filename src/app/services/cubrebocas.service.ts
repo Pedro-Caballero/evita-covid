@@ -91,10 +91,10 @@ export class CubrebocasService {
       caracteristicas: "mascarilla plstificada con filtros removibles (incluye 10 filtros)"
     },
     {
-      producto: "Cubrebocas KN95 lavable",
+      producto: "Cubrebocas KN95",
       precio: "$120.00",
       img: "assets/img/cubrekn95lavable.jpeg",
-      caracteristicas: "con válvula"
+      caracteristicas: "lavable con válvula"
     },
     {
       producto: "Cubrebocas KN95",
@@ -105,7 +105,7 @@ export class CubrebocasService {
     {
       producto: "Cubrebocas KN95",
       precio: "$75.00",
-      img: "assets/img/cubrekn95sesechable.jpeg",
+      img: "assets/img/cubrekn95valvula.jpeg",
       caracteristicas: "desechable con válvula, color blanco"
     },
     {
