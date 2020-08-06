@@ -1,0 +1,12 @@
+<div class="container main-container mt-5">
+    <div class="card-row">
+        <div class="card mb-4" *ngFor="let guante of guantes">
+            <img [src]="guante.img" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{ guante.producto | uppercase}}</h5>
+                <p class="card-text"><span>Caracteristicas:</span> {{ guante.caracteristicas }}</p>
+                <p class="card-text"><small class="text-muted"><span>Precio menudeo: </span>{{ guante.precio }}</small></p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="container main-container mt-5">
+    <div class="card-row">
+        <div class="card mb-4" *ngFor="let senal of senalizaciones">
+            <img [src]="senal.img" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{ senal.producto | uppercase}}</h5>
+                <p class="card-text"><span>Caracteristicas:</span> {{ senal.caracteristicas }}</p>
+                <p class="card-text"><small class="text-muted"><span>Precio menudeo: </span>{{ senal.precio }}</small></p>
+            </div>
+        </div>
+    </div>
+</div>

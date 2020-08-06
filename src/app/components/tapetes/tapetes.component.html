@@ -1,0 +1,12 @@
+<div class="container main-container mt-5">
+    <div class="card-row">
+        <div class="card mb-4" *ngFor="let tapete of tapetes">
+            <img [src]="tapete.img" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{ tapete.producto | uppercase}}</h5>
+                <p class="card-text"><span>Caracteristicas:</span> {{ tapete.caracteristicas }}</p>
+                <p class="card-text"><small class="text-muted"><span>Precio menudeo: </span>{{ tapete.precio }}</small></p>
+            </div>
+        </div>
+    </div>
+</div>
