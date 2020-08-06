@@ -10,7 +10,7 @@
         <div class="card mb-4" *ngFor="let termometro of termometros">
             <img [src]="termometro.img" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">{{ termometro.producto | uppercase}}</h5>
+                <h4 class="card-title">{{ termometro.producto | uppercase}}</h4>
                 <p class="card-text"><span>Caracteristicas:</span> {{ termometro.caracteristicas }}</p>
                 <p class="card-text"><small class="text-muted"><span>Precio menudeo: {{ termometro.precio }}</span></small></p>
             </div>

@@ -10,7 +10,7 @@
         <div class="card mb-4" *ngFor="let careta of caretas">
             <img [src]="careta.img" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">{{ careta.producto | uppercase}}</h5>
+                <h4 class="card-title">{{ careta.producto | uppercase}}</h4>
                 <p class="card-text"><span>Caracteristicas:</span> {{ careta.caracteristicas }}</p>
                 <p class="card-text"><small class="text-muted"><span>Precio menudeo: {{ careta.precio }}</span></small></p>
             </div>

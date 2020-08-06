@@ -10,7 +10,7 @@
         <div class="card mb-4" *ngFor="let lente of lentes">
             <img [src]="lente.img" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">{{ lente.producto | uppercase}}</h5>
+                <h4 class="card-title">{{ lente.producto | uppercase}}</h4>
                 <p class="card-text"><span>Caracteristicas:</span> {{ lente.caracteristicas }}</p>
                 <p class="card-text"><small class="text-muted"><span>Precio menudeo: {{ lente.precio }}</span></small></p>
             </div>
